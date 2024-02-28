@@ -1,0 +1,36 @@
+div{
+    color:red;
+}
+.firstdiv{
+    color:blue;
+}
+.seconddiv{
+    color:chocolate;
+}
+/* class always starts with (.) dot dign */
+
+/* id's start with (#) hashtag sign */
+#singledout{
+color:green;
+text-decoration:line-through;
+}
+/* aestrick (*) it will override everything except id */ 
+*{
+color:blanchedalmond;
+}
+
+/* json siblings */
+h3+ul{
+    border:4px dotted purple;
+}
+/* using this any unorder list next to h3 tag will have the border according to our given materials */
+
+li a{
+color:pink;
+}
+/* if it is like this( li a{}) which mean any anchor tag inside the li */
+li a[href="www.npr.org"]{
+    color:blue;
+    border:5px solid orange;
+}
+/* this are used for changing the attributes */

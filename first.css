@@ -1,0 +1,39 @@
+/* selected tag{
+    property:value;
+} */
+h1{
+    color:green;
+}
+p{
+    color:rgb(194, 121, 25);
+}
+ol{
+    color:rgb(149, 42, 165);
+}
+/* rgba()  ---> here R is red
+                     g is green
+                     b is blue
+                     a is alpha 
+here a defines whether the color is transparent or opaque */
+body{
+    background:url(https://plus.unsplash.com/premium_photo-1674635191022-84de68397aa2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fHww);
+    background-repeat:repeat;
+    /* can use this for background in the website*/
+}                    
+div{
+    background-color: black;
+    border-color:blue;
+    border-width:thick;
+    border-style:dotted;
+}
+p{
+    color:chartreuse;
+}
+span{
+    background:red;
+    color:black;
+}
+/* wew can use ids to target sinigle elements 
+  we can use "classes" to target groups of elements
+  we can then use also combinations of selector tags to target certain combinations of elements*/
+  

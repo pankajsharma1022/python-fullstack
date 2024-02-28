@@ -1,0 +1,10 @@
+/* specificity ---> defines the hierarchy of css styling, and what type of tags ovrrule others */
+li{
+    color:red;
+}
+.topitems{
+    color:blue;
+}
+#two{
+    border:3px solid black;
+}

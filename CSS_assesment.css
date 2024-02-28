@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    border: 1px solid black;
+}
+.firstline{
+    background-color: rgb(238, 238, 139);
+}
+h2{
+    color:purple;
+}
+#singledout{
+    color:purple;
+    text-decoration: overline ;
+    /* this is used to overline the text */
+}
+li a{
+    color:red;
+}
+textarea{
+    border:5px solid grey
+}
+#mail{
+    border:2px solid brown;
+}
+#password{
+    border:2px solid brown;
+}
+.lasttextarea{
+    background-color: blue;
+    border: 5px  yellow;
+    border-style: dashed ;
+}
+#question{
+    background-color: yellow;
+}
+
+

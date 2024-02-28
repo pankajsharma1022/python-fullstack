@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+</head>
+<body >
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note:First Name,Last Name,Password,and Email are required</p>
+    <!-- here provide the link of thankyou page in action attribute of form and method get is necessary-->
+    <form action="thankyou.html" method="get">
+        <label for="FirstName:">FirstName:</label>
+        <input id="FirstName:" type="text" placeholder="First Name">
+        <label for="LastName:">LastName:</label>
+        <input id="LastName:" type="text" placeholder="Last Name">
+    </br>
+    <label for="username">Email:</label>
+    <input  id="username" type="email"  placeholder="name@gmail.com" required >
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password">
+    <h3>Are you above 18?</h3>
+    <label for="YES">YES:</label>
+    <input type="radio" name="age" value="Positive">
+    <label for="No">NO:</label>
+    <input type="radio" name="age" value="Ngative">
+</br>
+<h3>Do you have a Credit card or Paypal?</h3>
+<select name="payment" >
+    <option value="1">Credit Card</option>
+    <option value="2">Paypal</option>
+</select>
+</br>
+<br>
+
+<input type="submit" value="Signup">
+    </form>
+</body>
+</html>
