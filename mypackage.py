@@ -1,0 +1,2 @@
+import modulesandpackages
+modulesandpackages.fun_in_module()
